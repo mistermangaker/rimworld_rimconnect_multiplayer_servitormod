@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>servitor implant mod</name>
+	<packageId>shamia.servitormod</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<author>shamia</author>
+
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+	<incompatibleWith>
+	</incompatibleWith>
+	<description>a mod that adds a servitor implant which makes pawns obedient</description>
+</ModMetaData>

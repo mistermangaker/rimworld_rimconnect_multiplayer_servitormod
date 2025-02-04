@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+<!--
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/CultureDef[defName="Astropolitan"]</xpath>
+  	<value>
+        <pawnNameMaker>NamerPersontwitchsub</pawnNameMaker>
+  	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/CultureDef[defName="Corunan"]/pawnNameMaker</xpath>
+  	<value>
+        <pawnNameMaker>NamerPersontwitchsub</pawnNameMaker>
+  	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/CultureDef[defName="Rustican"]</xpath>
+  	<value>
+        <pawnNameMaker>NamerPersontwitchsub</pawnNameMaker>
+  	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/CultureDef[defName="Kriminul"]</xpath>
+  	<value>
+        <pawnNameMaker>NamerPersontwitchsub</pawnNameMaker>
+  	</value>
+</Operation>
+-->
+
+</Patch>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!--<pawnNameMaker>NamerPersontwitchsub</pawnNameMaker>-->
+     <RulePackDef>
+    <defName>NamerPersontwitchsub</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[NameFirst] [NameLast]</li>
+        <li>r_name(p=2)->[NameFull]</li>
+        
+      </rulesStrings>
+      <rulesFiles>
+      <li>NameFirst->Names/Animal_Unisex</li>
+        <li>NameFirst->Names/Imperial_First_Male</li>
+        <li>NameLast->Names/Imperial_Last</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+</Defs>
