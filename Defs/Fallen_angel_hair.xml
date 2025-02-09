@@ -23,4 +23,22 @@
 			<li>Fallen_angel</li>
 		</styleTags>
 	</HairDef>
+
+		<HairDef>
+		<defName>cloudy_hairone</defName>
+		<label>cloudys hair</label>
+		<styleGender>Any</styleGender>
+		<texPath>Humanlike/Hair/CloudyHairOne</texPath>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+		<category>Fallen_angel</category>
+		<styleTags>
+			<li>Shaved</li>
+			<li>Urban</li>
+			<li>Punk</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Soldier</li>
+			<li>Fallen_angel</li>
+		</styleTags>
+	</HairDef>
 </Defs>

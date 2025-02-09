@@ -221,6 +221,65 @@
   </ThingDef>
 
 
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>apparel_cloudyshat</defName>
+    <label>cloudys hat</label>
+    <description>big hat</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Aparrel/Cloudy_hat/CloudyHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <costList>
+        <Cloth>100</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>1400</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.08</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Aparrel/Cloudy_hat/CloudyHat</wornGraphicPath>
+	  <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+      <drawData>
+        <dataSouth>
+          <layer>-3</layer>
+        </dataSouth>
+      </drawData>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <displayPriority>160</displayPriority>
+    </recipeMaker>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
 
 
 
